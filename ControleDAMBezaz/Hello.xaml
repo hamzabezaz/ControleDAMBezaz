@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ControleDAMBezaz.Hello"
+             Title="Hello">
+    <VerticalStackLayout>
+        <Label 
+            Text="Hello...!"
+            FontSize="24"
+            HorizontalOptions="CenterAndExpand" />
+
+
+        <Editor
+            x:Name="passwordEntry"/>
+
+
+
+        
+        <Button
+    Text="OK"
+    TranslationY="150"
+    BackgroundColor="Lime"
+    TextColor="Black"
+    FontSize="20"    
+    Clicked="Hel_Clickd"/>
+
+
+        <Label
+            x:Name="messageLabel"/>
+
+    </VerticalStackLayout>
+</ContentPage>
